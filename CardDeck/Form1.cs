@@ -95,7 +95,7 @@ namespace CardDeck
         {
             playerCardsLabel.Text = $"";
             dealerCardsLabel.Text = $"";
-            outputLabel.Text = $"";
+            ShowDeck();
         }
     }
 }
