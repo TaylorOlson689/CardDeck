@@ -112,7 +112,7 @@ namespace CardDeck
             this.collectButton.TabIndex = 4;
             this.collectButton.Text = "Collect";
             this.collectButton.UseVisualStyleBackColor = false;
-            // this.collectButton.Click += new System.EventHandler(this.collectButton_Click);
+            //this.collectButton.Click += new System.EventHandler(this.collectButton_Click);
             // 
             // dealerLabel
             // 

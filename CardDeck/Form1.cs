@@ -95,8 +95,12 @@ namespace CardDeck
         {
             playerCardsLabel.Text = $"";
             dealerCardsLabel.Text = $"";
-            playerCards.Clear();
-            dealerCards.Clear();
+            for (int i = 0; ; i++)
+            {
+                playerCards.Remove(deck[i]);
+                dealerCards.Remove(deck[i]);
+               break;
+            }
             ShowDeck();
         }
     }
