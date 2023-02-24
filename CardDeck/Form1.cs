@@ -93,12 +93,13 @@ namespace CardDeck
 
         private void collectButton_Click(object sender, EventArgs e)
         {
-            playerCardsLabel.Text = $"";
-            dealerCardsLabel.Text = $"";
+            
             for (int i = 0; ; i++)
             {
+                playerCardsLabel.Text = $"";
+                dealerCardsLabel.Text = $"";
                 playerCards.Remove(deck[i]);
-                dealerCards.Remove(deck[i]);
+               dealerCards.Remove(deck[i]);
                break;
             }
             ShowDeck();
