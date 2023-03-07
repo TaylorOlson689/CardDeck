@@ -100,7 +100,7 @@ namespace CardDeck
                 dealerCardsLabel.Text = $"";
                 playerCards.Remove(deck[i]);
                dealerCards.Remove(deck[i]);
-
+                
                break;
             }
             ShowDeck();
