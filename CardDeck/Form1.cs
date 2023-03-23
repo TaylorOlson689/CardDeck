@@ -58,7 +58,7 @@ namespace CardDeck
 
             deck = deckTemp;
 
-            ShowDeck();
+            ShowDeck(); //
         }
 
         private void dealButton_Click(object sender, EventArgs e)
